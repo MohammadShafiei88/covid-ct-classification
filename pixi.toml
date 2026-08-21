@@ -1,0 +1,20 @@
+[workspace]
+authors = ["MohammadShafiei88 <m.shafiei6674@gmail.com>"]
+channels = ["conda-forge"]
+name = "project"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.12,<3.13"
+jupyter = ">=1.1.1,<2"
+notebook = ">=7.5.2,<8"
+scikit-learn = ">=1.8.0,<2"
+pandas = ">=2.3.3,<3"
+numpy = ">=2.4.1,<3"
+matplotlib = ">=3.10.8,<4"
+tensorflow = ">=2.18.0,<3"
+seaborn = ">=0.13.2,<0.14"
+keras = ">=3.12.0,<4"
